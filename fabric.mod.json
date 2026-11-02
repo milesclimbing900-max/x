@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "lagless",
+  "version": "${version}",
+  "name": "Lagless",
+  "description": "Client-side toggles to hide other players and particles.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.lagless.LaglessClient"] },
+  "mixins": ["lagless.mixins.json"],
+  "depends": { "fabricloader": ">=0.15.0", "minecraft": "~1.21.1", "fabric-api": "*" }
+}
